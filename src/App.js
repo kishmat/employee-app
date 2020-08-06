@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/" component={Home} /> 
+          <Route exact path="/employee-api-frontent-" component={Home} /> 
           <Route path="/read/:id" component={Read} />
         </Switch>
       </div>
