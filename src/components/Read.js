@@ -29,7 +29,7 @@ const Read = () => {
         <div className='container'>
           <div id="employee-container">
             <div id="form-wrapper pb-0">
-              <Link className="btn btn-primary mb-3" to="/">
+              <Link className="btn btn-primary mb-3" to="/employee-app">
               back to Home
               </Link>
               <h2 className="ml-3">Detail of Employee : </h2>

@@ -101,7 +101,7 @@ const deleteEmp = (list) => {
 
               {/* Read Button */}
               <div style={{flex:1}}>
-              <Link className="btn btn-sm btn-outline-info" to={`/read/${list.id}`}>
+              <Link className="btn btn-sm btn-outline-info" to={`/employee-app/read/${list.id}`}>
                     View
                   </Link>
               </div>
