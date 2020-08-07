@@ -14,7 +14,6 @@ useEffect(()=>{
 //function to fetch the Employee List
 const fetchLists = async() => {
   const response = await axios.get('https://kishmat-api.herokuapp.com/api/employee-list/') //aysnc is used to wait untill the data is fetched from api
-  console.log(response.data)
   setLists(response.data)
 }
 
@@ -45,7 +44,6 @@ const handleSubmit = async(e) =>{
 
 //function to edit the employee detail
 const startEdit = (list) => {
-  console.log(list)
   setActive(list)
   setEditing(true)
 }
