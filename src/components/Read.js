@@ -21,7 +21,6 @@ const Read = () => {
     //function to get particular employee detail to read.
     const loadUser = async () => {
       const res = await axios.get(`https://kishmat-api.herokuapp.com/api/employee-read/${id}/`);
-      console.log(res.data)
       setEmp(res.data);
     };
 
